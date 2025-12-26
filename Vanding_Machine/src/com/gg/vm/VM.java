@@ -66,7 +66,7 @@ public class VM {
             }
 
             System.out.println("메뉴 선택(1~" + coffeeNames.length + "):");
-            System.out.println("잔액 :"+inCoin);
+            System.out.println("잔액 :" + inCoin);
             menu = kbd.nextInt();
             kbd.nextLine();
 
